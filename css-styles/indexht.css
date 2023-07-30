@@ -1,0 +1,67 @@
+.nav-link {
+  color: rgb(67, 164, 132);
+}
+.navbar-nav .nav-link.active {
+  color: aquamarine;
+}
+.navbar-toggler {
+  background-color: rgb(101, 26, 119);
+}
+body {
+  background: linear-gradient(
+    205deg,
+    #a99a9a 0%,
+    rgba(189, 36, 255, 0.41) 18%,
+    #79ace2 32%,
+    rgba(0, 54, 255, 0.41) 56%,
+    rgba(105, 149, 123, 0.32) 75%,
+    rgba(14, 170, 232, 0.41) 84%,
+    #b49e9e 100%
+  );
+}
+.card {
+  box-shadow: 10px 10px 23px 3px #000;
+  color: rgb(4, 40, 28);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 10px auto 20px;
+  background: linear-gradient(255deg, #98bdb9 0%, #92b0a6 100%);
+}
+.card-img-top {
+  border-radius: 50% !important;
+  padding: 20 !important;
+  margin: 100;
+  border-style: solid;
+}
+.carousel-inner img {
+  height: 600px;
+}
+.footer-text {
+  color: aquamarine;
+  margin: auto auto;
+}
+footer {
+  background-color: rgb(47, 43, 43);
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.medialinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heart {
+  width: 50px;
+}
+.forheart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+@media (max-width: 800px) {
+  .carousel-inner img {
+    height: 250px;
+  }
+}

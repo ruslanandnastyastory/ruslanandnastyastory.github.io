@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
+section {
+  font-family: Lobster, serif !important;
+  color: rgb(30, 30, 37);
+}
+.nav-link {
+  color: rgb(67, 164, 132);
+}
+.navbar-nav .nav-link.active {
+  color: aquamarine;
+}
+.navbar-toggler {
+  background-color: rgb(101, 26, 119);
+}
+body {
+  background: linear-gradient(
+    128deg,
+    #ba39c2 0%,
+    #cb7070 30%,
+    #ce3434 67%,
+    rgba(136, 10, 10, 0.88) 93%,
+    rgba(136, 10, 10, 0.88) 100%
+  );
+}
+.card {
+  box-shadow: 10px 10px 23px 3px #000;
+  color: rgb(4, 40, 28);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 30px;
+
+  background: linear-gradient(255deg, #53d0c3 0%, #92b0a6 100%);
+}
+.footer-text {
+  color: aquamarine;
+  margin: auto auto;
+}
+footer {
+  background-color: rgb(47, 43, 43);
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.medialinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a:active, /* активная/посещенная ссылка */
+    a:hover,  /* при наведении */
+    a {
+  text-decoration: none;
+  color: rgb(45, 58, 168);
+}
+.card-img-top {
+  width: 100%;
+  height: 27vw;
+  object-fit: cover;
+}
+@media (max-width: 992px) {
+  .card-img-top {
+    width: 100%;
+    height: 80vw;
+    object-fit: cover;
+  }
+}
+.d-block {
+  width: 100%;
+  height: 40vw;
+  object-fit: cover;
+}
+@media (max-width: 992px) {
+  .d-block {
+    width: 100%;
+    height: 89vw;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,44 @@
+.bgvideo {
+  width: 100%;
+  height: 40vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 120px;
+}
+.bgvideo video {
+  width: 100%;
+  height: 40vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.video-text {
+  color: aquamarine;
+  z-index: 2;
+}
+.effects {
+  width: 100%;
+  height: 40vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: 2;
+  background-color: rgba(117, 48, 134, 0.412);
+}
+.bottext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a:active, /* активная/посещенная ссылка */
+      a:hover,  /* при наведении */
+      a {
+  text-decoration: none;
+  color: rgb(32, 43, 158);
+}

@@ -1,0 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
+section p {
+  font-family: Lobster, serif !important;
+  color: rgb(30, 30, 37);
+  font-size: larger;
+}
